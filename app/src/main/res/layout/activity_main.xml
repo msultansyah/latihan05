@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AFB42B"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btPSG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paris Saint Germain"
+        android:textColor="#F0F4C3"
+        android:background="#FF5722"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btDortmund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrusia Dortmund"
+        android:textColor="#F0F4C3"
+        android:background="#FF5722"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btMunchen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayern Munchen"
+        android:textColor="#F0F4C3"
+        android:background="#FF5722"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
